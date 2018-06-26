@@ -1,0 +1,16 @@
+PODS:
+  - QZZCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - QZZCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  QZZCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QZZCategoryKit: 84e4d158bfa5c9fe9cd2f6ab15efbee61591cdf0
+
+PODFILE CHECKSUM: 604802a2775c3f2bb6ea2ef89afc9a9ce3944ec5
+
+COCOAPODS: 1.5.0

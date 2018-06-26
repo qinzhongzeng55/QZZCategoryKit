@@ -1,0 +1,6 @@
+framework module Pods_QZZCategoryKit_Example {
+  umbrella header "Pods-QZZCategoryKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
