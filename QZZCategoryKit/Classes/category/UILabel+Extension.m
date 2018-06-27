@@ -1,8 +1,8 @@
 //
 //  UILabel+Extension.m
-//  LifeLine
 //
-//  Created by 郑佳 on 16/4/11.
+//
+//  Created by qinzhongzeng on 16/4/11.
 //  Copyright © 2016年 Triangle. All rights reserved.
 //
 

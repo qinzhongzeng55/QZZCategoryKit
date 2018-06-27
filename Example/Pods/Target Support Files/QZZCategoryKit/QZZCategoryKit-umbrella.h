@@ -18,7 +18,7 @@
 #import "UIImage+ImageEffects.h"
 #import "UILabel+ChangeLineSpaceAndWordSpace.h"
 #import "UILabel+Extension.h"
-#import "UIView+FFFrame.h"
+#import "UIView+QZZFrame.h"
 
 FOUNDATION_EXPORT double QZZCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char QZZCategoryKitVersionString[];
