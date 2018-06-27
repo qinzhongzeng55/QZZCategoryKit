@@ -14,6 +14,7 @@
 #import "NSString+Emoji.h"
 #import "UIButton+Extension.h"
 #import "UIColor+Hex.h"
+#import "UIImage+Extension.h"
 #import "UIImage+ImageEffects.h"
 #import "UILabel+ChangeLineSpaceAndWordSpace.h"
 #import "UILabel+Extension.h"

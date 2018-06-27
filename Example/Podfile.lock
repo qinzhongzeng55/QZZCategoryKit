@@ -1,5 +1,5 @@
 PODS:
-  - QZZCategoryKit (0.1.0)
+  - QZZCategoryKit (0.1.2)
 
 DEPENDENCIES:
   - QZZCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QZZCategoryKit: 84e4d158bfa5c9fe9cd2f6ab15efbee61591cdf0
+  QZZCategoryKit: 6894521ff447f6af8a416c321c3e9f885dea7ab5
 
 PODFILE CHECKSUM: 604802a2775c3f2bb6ea2ef89afc9a9ce3944ec5
 
