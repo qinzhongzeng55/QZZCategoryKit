@@ -1,14 +1,14 @@
 //
-//  UIView+FFFrame.m
-//  FlowerField
+//  UIView+QZZFrame.m
+//  
 //
-//  Created by kepuna on 2017/8/24.
+//  Created by qinzhongzeng on 2017/8/24.
 //  Copyright © 2017年 Triangle. All rights reserved.
 //
 
-#import "UIView+FFFrame.h"
+#import "UIView+QZZFrame.h"
 
-@implementation UIView (FFFrame)
+@implementation UIView (QZZFrame)
 
 - (void)setX:(CGFloat)x{
     CGRect frame = self.frame;

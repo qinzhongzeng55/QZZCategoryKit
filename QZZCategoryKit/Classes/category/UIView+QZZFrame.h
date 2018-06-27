@@ -1,14 +1,14 @@
 //
-//  UIView+FFFrame.h
-//  FlowerField
+//  UIView+QZZFrame.h
 //
-//  Created by kepuna on 2017/8/24.
+//
+//  Created by qinzhongzeng on 2017/8/24.
 //  Copyright © 2017年 Triangle. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (FFFrame)
+@interface UIView (QZZFrame)
 
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
