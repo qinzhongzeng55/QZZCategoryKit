@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		01B83BAF47FBB37D1D44F22306980963 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 616DFBE7271C69CEE1DE95BC3E1CEC3D /* UILabel+Extension.m */; };
 		13C4F2FC983940F1896EFA29E16152B4 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CAF50A214045630134E21A886C1370 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187744F42107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 187744F22107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.h */; };
+		187744F52107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 187744F32107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.m */; };
 		216000385536298B3731CDB6F059643D /* Pods-QZZCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 111F5B72D359AF6720ECFA8484C40B29 /* Pods-QZZCategoryKit_Tests-dummy.m */; };
 		24D75FCBBDFDFD77C6C69E76C7AF026C /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC07154B545AD94B8E8E278D2E6AFF1 /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		281731E74AFADB37F8A85A814D185F48 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA35ECAF9F6A8BA00371AE3B523AEB6 /* NSArray+Log.m */; };
@@ -55,7 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004A672CF867BC2C47295C2C638125ED /* QZZCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QZZCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		004A672CF867BC2C47295C2C638125ED /* QZZCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QZZCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		02DCEA29B4A1C25BF606786925BB5589 /* Pods-QZZCategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZZCategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		04084E044D4F77B0D99F119A1BEF0ED6 /* QZZCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QZZCategoryKit.xcconfig; sourceTree = "<group>"; };
 		04413A8DCC4D41DC1D31D4EE54418B16 /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
@@ -63,6 +65,8 @@
 		06B1172D3AAA5C85B47DFD573C47AC04 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		107AF3EBB9C64E027DDDCB23F3201211 /* NSString+Emoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
 		111F5B72D359AF6720ECFA8484C40B29 /* Pods-QZZCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZZCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		187744F22107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
+		187744F32107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
 		18C28D272BF7EC311B239CBB7EC975BF /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		1A5E61340605B7527BF65486589374C6 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		1DECC07541FD6C63214A64CD44D1E82C /* Pods-QZZCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZZCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -74,7 +78,7 @@
 		48B6C116802102B7395EFED1CC56613B /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		4C2F275B3E580B0E7352EE527379E5D1 /* Pods-QZZCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZZCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DA35ECAF9F6A8BA00371AE3B523AEB6 /* NSArray+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
-		4F9C55BD901CAB683E1ED75A89865A4C /* Pods_QZZCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZZCategoryKit_Tests.framework; path = "Pods-QZZCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9C55BD901CAB683E1ED75A89865A4C /* Pods_QZZCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZZCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5317A66FF8D66CEDF67CC03DC947BA86 /* Pods-QZZCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZZCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		570C6EEC1B05B85D462C38FA22FFBB1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585A32BC87397C7937DA1AA5FFC509B3 /* UIView+QZZFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+QZZFrame.m"; sourceTree = "<group>"; };
@@ -88,7 +92,7 @@
 		89F03EBACFE2F163EF7185F8F3EB2859 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC07154B545AD94B8E8E278D2E6AFF1 /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		8D8C5AB408DD741BD8BC484C42E54C1C /* Pods-QZZCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZZCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E88CE40862AB14C2D9A1CD90D7B4EA9 /* Pods-QZZCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZZCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9EC24700AAA78795897892373C50B5DF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QZZCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B19462B0BC10028E2136E975A1C07083 /* QZZCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QZZCategoryKit-dummy.m"; sourceTree = "<group>"; };
@@ -96,18 +100,18 @@
 		B5EE8C64175A6A3D40FEE576ECE7A0AC /* UIView+QZZFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+QZZFrame.h"; sourceTree = "<group>"; };
 		BC690231BD2CCBEE819D04011E7552C1 /* QZZCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZZCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		C7C65EF90A0930DD65A1F6E8D08C4469 /* Pods-QZZCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZZCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		C8DEB0C4A1997083C5E34307BB93860B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C8DEB0C4A1997083C5E34307BB93860B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2267279685BEA1272D2F29C17152A89 /* Pods-QZZCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QZZCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		DB3C95172153CEBF48CE86440C5C05CB /* Pods-QZZCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZZCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEE879EBD7F27B4B1EAE7C03DD1BBA94 /* QZZCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZZCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		E33CFE49BEDD84FBAEF87DD2DE5EF610 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		E81E224A581782571F78BCBC02F297A6 /* Pods-QZZCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZZCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E9FA3F77D4028FD121B7909A2678A956 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECC937F90785FF1CF0146FDF7D37345A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ECC937F90785FF1CF0146FDF7D37345A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F19032C83C79DB79B3DAF4D10ED45975 /* Pods-QZZCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZZCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F3631A4FB656848EEE0A5F26F5977670 /* Pods-QZZCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZZCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F74F57EEF27E67CBA6C3FB1BE63F56F4 /* QZZCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QZZCategoryKit.framework; path = QZZCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F80A1F4F97A3A5D1A0E886E2DA76BD32 /* Pods_QZZCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZZCategoryKit_Example.framework; path = "Pods-QZZCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74F57EEF27E67CBA6C3FB1BE63F56F4 /* QZZCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QZZCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A1F4F97A3A5D1A0E886E2DA76BD32 /* Pods_QZZCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZZCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +289,8 @@
 				616DFBE7271C69CEE1DE95BC3E1CEC3D /* UILabel+Extension.m */,
 				B5EE8C64175A6A3D40FEE576ECE7A0AC /* UIView+QZZFrame.h */,
 				585A32BC87397C7937DA1AA5FFC509B3 /* UIView+QZZFrame.m */,
+				187744F22107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.h */,
+				187744F32107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.m */,
 			);
 			name = category;
 			path = QZZCategoryKit/Classes/category;
@@ -297,6 +303,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187744F42107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.h in Headers */,
 				BE31CE216EC9239FA3F54C009A380A74 /* Pods-QZZCategoryKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2CC652C012DEBDA64847421F7BFFEDD /* Pods-QZZCategoryKit_Example-dummy.m in Sources */,
+				187744F52107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
