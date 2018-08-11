@@ -21,13 +21,11 @@
 		5F54A1B727B8503F63E2A7F9F9D54AFD /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6723C4CA6D4713B6ABF6B17415749503 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F95B253E604F6DEF37D77D22E436FDE /* QZZCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B19462B0BC10028E2136E975A1C07083 /* QZZCategoryKit-dummy.m */; };
 		706FF8F46E6DE5015591E6A1C49D5C1A /* Pods-QZZCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F0BF1A332492010CB219D32CFA1CAD /* Pods-QZZCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7425F654C632C9EFD9D36C11D4A36915 /* UIView+QZZFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EE8C64175A6A3D40FEE576ECE7A0AC /* UIView+QZZFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78133ABC50234A90FCA89A16DB49F0A9 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 455DBE3D0110AB8670273425BF05A0B6 /* UIButton+Extension.m */; };
 		7A70962EFB729A70DFEACE660566616C /* QZZCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE879EBD7F27B4B1EAE7C03DD1BBA94 /* QZZCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FE25BEEEFF538F888AD6044CF9D7F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		95D4C8243D731B382ED9819BF47B6211 /* NSString+Emoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B705324A53D816FD770C7818DF6F4F /* NSString+Emoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97511F2C721CF5FE23FBB104887B8982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A0C717D14BF06C95476CB163F206ABE6 /* UIView+QZZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A32BC87397C7937DA1AA5FFC509B3 /* UIView+QZZFrame.m */; };
 		A2CC652C012DEBDA64847421F7BFFEDD /* Pods-QZZCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DECC07541FD6C63214A64CD44D1E82C /* Pods-QZZCategoryKit_Example-dummy.m */; };
 		B0C2A78166671F76306AC7880E2E204F /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6C116802102B7395EFED1CC56613B /* UIImage+Extension.m */; };
 		B886CB92217ABED9148A2BCE94E6802C /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 107AF3EBB9C64E027DDDCB23F3201211 /* NSString+Emoji.m */; };
@@ -81,7 +79,6 @@
 		4F9C55BD901CAB683E1ED75A89865A4C /* Pods_QZZCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZZCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5317A66FF8D66CEDF67CC03DC947BA86 /* Pods-QZZCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZZCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		570C6EEC1B05B85D462C38FA22FFBB1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		585A32BC87397C7937DA1AA5FFC509B3 /* UIView+QZZFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+QZZFrame.m"; sourceTree = "<group>"; };
 		60C6038F039F4E9688BE08D3CA189B45 /* Pods-QZZCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZZCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		616DFBE7271C69CEE1DE95BC3E1CEC3D /* UILabel+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		6261553B8457B58C3EBFD2FAD9308898 /* Pods-QZZCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZZCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +94,6 @@
 		9EC24700AAA78795897892373C50B5DF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QZZCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B19462B0BC10028E2136E975A1C07083 /* QZZCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QZZCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		B30C83BCDE13C70D7573AA60F36C0BA8 /* Pods-QZZCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZZCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
-		B5EE8C64175A6A3D40FEE576ECE7A0AC /* UIView+QZZFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+QZZFrame.h"; sourceTree = "<group>"; };
 		BC690231BD2CCBEE819D04011E7552C1 /* QZZCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZZCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		C7C65EF90A0930DD65A1F6E8D08C4469 /* Pods-QZZCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZZCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		C8DEB0C4A1997083C5E34307BB93860B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -287,8 +283,6 @@
 				6712187265E908A3FEB61A446F707BE7 /* UILabel+ChangeLineSpaceAndWordSpace.m */,
 				8BC07154B545AD94B8E8E278D2E6AFF1 /* UILabel+Extension.h */,
 				616DFBE7271C69CEE1DE95BC3E1CEC3D /* UILabel+Extension.m */,
-				B5EE8C64175A6A3D40FEE576ECE7A0AC /* UIView+QZZFrame.h */,
-				585A32BC87397C7937DA1AA5FFC509B3 /* UIView+QZZFrame.m */,
 				187744F22107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.h */,
 				187744F32107FA16000339E7 /* UITextView+ChangeLineSpaceAndWordSpace.m */,
 			);
@@ -329,7 +323,6 @@
 				C5050DB23AB538CA1E3439D0B89A9ABC /* UIImage+ImageEffects.h in Headers */,
 				55C2479442AC41A71BC16C24F3E90F2B /* UILabel+ChangeLineSpaceAndWordSpace.h in Headers */,
 				24D75FCBBDFDFD77C6C69E76C7AF026C /* UILabel+Extension.h in Headers */,
-				7425F654C632C9EFD9D36C11D4A36915 /* UIView+QZZFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +434,6 @@
 				2F509C55BC80B23498ABE2477BA5CFBA /* UIImage+ImageEffects.m in Sources */,
 				C68436794B8184878EEE3A2BB2039AB0 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				01B83BAF47FBB37D1D44F22306980963 /* UILabel+Extension.m in Sources */,
-				A0C717D14BF06C95476CB163F206ABE6 /* UIView+QZZFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
